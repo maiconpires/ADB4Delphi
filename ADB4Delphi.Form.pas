@@ -16,8 +16,10 @@ type
     Label4: TLabel;
     btnConectar: TButton;
     btnRefresh: TButton;
+    btnReset: TButton;
     procedure btnConectarClick(Sender: TObject);
     procedure btnRefreshClick(Sender: TObject);
+    procedure btnResetClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -236,6 +238,19 @@ end;
 procedure TADB4DelphiForm.btnRefreshClick(Sender: TObject);
 begin
   RefreshDevices;
+end;
+
+procedure TADB4DelphiForm.btnResetClick(Sender: TObject);
+var
+  Output: String;
+begin
+  try
+    Output := ExecutarComandoESaida(Format('cmd /C %s %s',[ADB, 'disconnect']));
+    ExecutarComandoESaida(Format('cmd /C %s %s',[ADB, 'usb']));
+  finally
+    TButton(Sender).Caption := 'Connect';
+    ShowMessage(Output);
+  end;
 end;
 
 procedure TADB4DelphiForm.RefreshDevices;

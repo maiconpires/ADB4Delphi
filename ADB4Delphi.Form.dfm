@@ -3396,4 +3396,13 @@ object ADB4DelphiForm: TADB4DelphiForm
     TabOrder = 2
     OnClick = btnRefreshClick
   end
+  object btnReset: TButton
+    Left = 99
+    Top = 101
+    Width = 100
+    Height = 25
+    Caption = 'Reset'
+    TabOrder = 3
+    OnClick = btnResetClick
+  end
 end
