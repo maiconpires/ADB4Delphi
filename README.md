@@ -1,2 +1,20 @@
-# ADB4Delphi
-ADB4Delphi permite você conectar aos seus dispositivos android por wifi sem a necessidade de manter o cabo USB enquanto depura seus aplicativos feitos em Delphi.
+<p align="center">
+  <a href="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/SOiS_Splash.bmp">
+    <img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/SOiS_Splash.bmp">
+  </a>                                 
+</p><br>
+<p align="center">
+  <b>Android Debug Bridge</b> permite você conectar aos seus dispositivos android por wifi sem a necessidade de manter o cabo USB enquanto depura seus aplicativos feitos em Delphi, sem a necessidade de <b>comandos</b>, de forma <b>fácil</b> e <b>rápida</b>.
+</p>
+
+## ⚡️ Quickstart Delphi
+<br />
+<img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi2.png">
+<br />
+<img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi1.png">
+<br />
+<img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi3.png">
+<br />
+<img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi4.png">
+<br />
+<img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi5.png">
