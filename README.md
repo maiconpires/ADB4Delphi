@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/SOiS_Splash.bmp">
-    <img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/SOiS_Splash.bmp">
+    <img alt="SOiS" height="200" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/SOiS_Splash.bmp">
   </a>                                 
 </p><br>
 <p align="center">
@@ -8,13 +8,18 @@
 </p>
 
 ## ⚡️ Quickstart Delphi
-<br />
-<img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi2.png">
-<br />
-<img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi1.png">
-<br />
-<img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi3.png">
-<br />
-<img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi4.png">
-<br />
-<img alt="Horse" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi5.png">
+<p align="center">
+<img alt="PanelDocked" width="200" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi2.png">
+</p>
+<p align="center">
+<img alt="Panel" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi1.png">
+</p>
+<p align="center">
+<img alt="Connected" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi3.png">
+</p>
+<p align="center">
+<img alt="Disconnected" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi4.png">
+</p>
+<p align="center">
+<img alt="Reset" height="150" src="https://github.com/maiconpires/ADB4Delphi/blob/main/Images/ADB4Delphi5.png">
+</p>
