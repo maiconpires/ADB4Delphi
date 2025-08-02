@@ -1,0 +1,42 @@
+package ADB4Delphi;
+
+{$R *.res}
+{$R *.dres}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'SOiS ADB4Delphi permite depurar seus aplicativos android sem a necessidade do cabo USB'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  designide;
+
+contains
+  ADB4Delphi.Register in 'ADB4Delphi.Register.pas',
+  ADB4Delphi.Wizard in 'ADB4Delphi.Wizard.pas',
+  ADB4Delphi.Form in 'ADB4Delphi.Form.pas' {ADB4DelphiForm},
+  ADB4Delphi.Splash.Registration in 'ADB4Delphi.Splash.Registration.pas';
+
+end.
